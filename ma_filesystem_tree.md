@@ -1,4 +1,5 @@
 # MA3 File System
+This is a tree visual of the grandMA3 file system.
 
 ```
 Root
