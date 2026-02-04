@@ -1608,28 +1608,1354 @@ Root
 │   │   │   │   │   ├──>PluginPreferencesCollect3
 │   │   │   │   │   └──>PoolSettings
 │   │   │   ├──>LayoutElementDefaultsCollect (15)
+│   │   │   │   ├──>View
+│   │   │   │   ├──>Macro
+│   │   │   │   ├──>Plugin
+│   │   │   │   ├──>Group
+│   │   │   │   ├──>World
+│   │   │   │   ├──>Sequence
+│   │   │   │   ├──>Master
+│   │   │   │   ├──>Sound
+│   │   │   │   ├──>User
+│   │   │   │   ├──>ScreenConfig
+│   │   │   │   ├──>Fixture
+│   │   │   │   ├──>MAtricks
+│   │   │   │   ├──>Preset
+│   │   │   │   ├──>Quickey
+│   │   │   │   └──>Station
 │   │   │   ├──>KeyboardShortcuts (157)
-│   │   │   ├──>UserAttributePreferences (479)
+│   │   │   │   ├──>PREV
+│   │   │   │   ├──>NEXT
+│   │   │   │   ├──>SET
+│   │   │   │   ├──>UP
+│   │   │   │   ├──>SELFIX
+│   │   │   │   ├──>DOWN
+│   │   │   │   ├──>MENU
+│   │   │   │   ├──>HIGHLIGHT
+│   │   │   │   ├──>SOLO
+│   │   │   │   ├──>FREEZE
+│   │   │   │   ├──>BLIND
+│   │   │   │   ├──>XKEYS
+│   │   │   │   ├──>PAGE_UP
+│   │   │   │   ├──>PAGE_DOWN
+│   │   │   │   ├──>LIST
+│   │   │   │   ├──>X1
+│   │   │   │   ├──>X2
+│   │   │   │   ├──>X3
+│   │   │   │   ├──>X4
+│   │   │   │   ├──>X5
+│   │   │   │   ├──>X6
+│   │   │   │   ├──>X7
+│   │   │   │   ├──>X8
+│   │   │   │   ├──>X9
+│   │   │   │   ├──>X10
+│   │   │   │   ├──>X11
+│   │   │   │   ├──>X12
+│   │   │   │   ├──>X13
+│   │   │   │   ├──>X14
+│   │   │   │   ├──>X15
+│   │   │   │   ├──>X16
+│   │   │   │   ├──>EXEC 
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>EXEC
+│   │   │   │   ├──>DEF_GO
+│   │   │   │   ├──>DEF_GOBACK
+│   │   │   │   ├──>DEF_PAUSE
+│   │   │   │   ├──>PAUSE
+│   │   │   │   ├──>GOBACK
+│   │   │   │   ├──>GO
+│   │   │   │   ├──>LEARN
+│   │   │   │   ├──>GOBACKFAST
+│   │   │   │   ├──>GOFAST
+│   │   │   │   ├──>ON
+│   │   │   │   ├──>OFF
+│   │   │   │   ├──>MOVE
+│   │   │   │   ├──>COPY
+│   │   │   │   ├──>DELETE
+│   │   │   │   ├──>ALIGN
+│   │   │   │   ├──>STOMP
+│   │   │   │   ├──>HELP
+│   │   │   │   ├──>SELECT
+│   │   │   │   ├──>GOTO
+│   │   │   │   ├──>FIXTURE
+│   │   │   │   ├──>CHANNEL
+│   │   │   │   ├──>GROUP
+│   │   │   │   ├──>SEQUENCE
+│   │   │   │   ├──>CUE
+│   │   │   │   ├──>PRESET
+│   │   │   │   ├──>EDIT
+│   │   │   │   ├──>ASSIGN
+│   │   │   │   ├──>TIME
+│   │   │   │   ├──>UPDATE
+│   │   │   │   ├──>STORE
+│   │   │   │   ├──>NUM0
+│   │   │   │   ├──>NUM1
+│   │   │   │   ├──>NUM2
+│   │   │   │   ├──>NUM3
+│   │   │   │   ├──>NUM4
+│   │   │   │   ├──>NUM5
+│   │   │   │   ├──>NUM6
+│   │   │   │   ├──>NUM7
+│   │   │   │   ├──>NUM8
+│   │   │   │   ├──>NUM9
+│   │   │   │   ├──>PLUS
+│   │   │   │   ├──>THRU
+│   │   │   │   ├──>MINUS
+│   │   │   │   ├──>DOT
+│   │   │   │   ├──>IF
+│   │   │   │   ├──>AT
+│   │   │   │   ├──>SLASH
+│   │   │   │   ├──>PLEASE
+│   │   │   │   ├──>DOT
+│   │   │   │   ├──>OOPS
+│   │   │   │   ├──>ONPC_SCREEN2
+│   │   │   │   ├──>ONPC_SCREEN3
+│   │   │   │   ├──>ONPC_SCREEN4
+│   │   │   │   ├──>ONPC_SCREEN5
+│   │   │   │   ├──>ONPC_SCREEN6
+│   │   │   │   └──>ONPC_SCREEN7
+│   │   │   ├──>UserAttributePreferences (479) // user-dependent. listing out five example attributes from my show
+│   │   │   │   ├──>PanRotate 
+│   │   │   │   ├──>Gobo1
+│   │   │   │   ├──>AnimationWheel1
+│   │   │   │   ├──>ColorRGB_CY
+│   │   │   │   └──>IrisStrobeRandom
 │   │   │   ├──>RenderQualities (1000)
+│   │   │   │   ├──>No Beam
+│   │   │   │   ├──>Line
+│   │   │   │   ├──>Simple
+│   │   │   │   ├──>Gobo
+│   │   │   │   ├──>Gobo Animated
+│   │   │   │   ├──>Gobo Shadow
+│   │   │   │   ├──>High Shadow
+│   │   │   │   └──>High Shadow Fancy
 │   │   │   ├──>SequenceSelection
 │   │   │   ├──>Collection
 │   │   │   ├──>GridColumnRegistry (46)
+│   │   │   │   ├──>Set 1
+│   │   │   │   ├──>SHOWFILESVIEW.[BACKUP_UIXML]
+│   │   │   │   ├──>SHOWHISTORYGRID.[BACKUP_UIXML]
+│   │   │   │   ├──>HDDDETAILSGRID.[BACKUP_UIXML]
+│   │   │   │   ├──>GRID.[WINDOW_PROGRAMMER_PARTS_UIXML]
+│   │   │   │   ├──>FILTERGRID.[FILTER_SETTINGS_UIXML]
+│   │   │   │   ├──>ALLWINDOWSGRID.[ADD_WINDOW_UIXML]
+│   │   │   │   ├──>GENERICEDITORGRID.[GENERIC_EDIT_UIXML]
+│   │   │   │   ├──>LIBRARYGRID.[LIBRARY_IMPORT_UIXML]
+│   │   │   │   ├──>MACROLINEGRID.[MACRO_EDIT_UIXML]
+│   │   │   │   ├──>EXPLORER.LIVE
+│   │   │   │   ├──>OBJGRID.LIVE
+│   │   │   │   ├──>FIXTURESSETUPGRID.LIVE
+│   │   │   │   ├──>FIXTURETYPESSETUPGRID.[FIXTURE_TYPES_UIXML]
+│   │   │   │   ├──>EXPLORER.EDIT
+│   │   │   │   ├──>OBJGRID.EDIT
+│   │   │   │   ├──>FIXTURESSETUPGRID.EDIT
+│   │   │   │   ├──>ASSIGNMENTGRID.[ASSIGNMENT_EDITOR_UIXML]
+│   │   │   │   ├──>HDDDETAILSGRID.[WINDOW_SYSTEMINFO_UIXML]
+│   │   │   │   ├──>ATTRIBUTESETUPGRID.[ATTRIBUTE_DEFINITIONS_UIXML]
+│   │   │   │   ├──>FILESVIEW.[FIXTURE_TYPE_EXPORT_UIXML]
+│   │   │   │   ├──>ASSIGNMENTGRID.[EXECUTOR_EDITOR_UIXML]
+│   │   │   │   ├──>FILESVIEW.[LIBRARY_EXPORT_UIXML]
+│   │   │   │   ├──>RECIPEGRID.[SEQUENCE_EDIT_UIXML]
+│   │   │   │   ├──>TOPLEVELGRID.[FIXTURE_TYPE_EDITOR_UIXML]
+│   │   │   │   ├──>DMXUNIVERSESSETUPGRID.[DMX_UNIVERSES_UIXML]
+│   │   │   │   ├──>UICHANNELSETUPGRID.[STAGE_DEFINITIONS_UIXML]
+│   │   │   │   ├──>CONFIGGRID.[GENERATOR_BITMAP_EDIT_UIXML]
+│   │   │   │   ├──>CHANNELGRID.[GENERATOR_BITMAP_EDIT_UIXML]
+│   │   │   │   ├──>IMAGEGRID.[IMAGE_IMPORT_UIXML]
+│   │   │   │   ├──>OOPSGRID.[OOPS_OVERLAY_UIXML]
+│   │   │   │   ├──>PRESETGRID.[UPDATE_OVERLAY_UIXML]
+│   │   │   │   ├──>CUEGRID.[UPDATE_OVERLAY_UIXML]
+│   │   │   │   ├──>RECIPEGRID.[WINDOW_SEQUENCE_SHEET_UIXML]
+│   │   │   │   ├──>TOPLEVELGRID.[DMX_MODE_EDITOR_UIXML]
+│   │   │   │   ├──>GENERICEDITORGRID.[KEYBOARD_SHORTCUT_EDITOR_UIXML]
+│   │   │   │   ├──>MANETSTATIONGRID.[NETWORK_UIXML]
+│   │   │   │   ├──>OBJECTGRID.[WEB_REMOTE_UIXML]
+│   │   │   │   ├──>OBJECTGRID.[KEY_REGISTRY_UIXML]
+│   │   │   │   ├──>STANDARDPAGE.[REMOTE_IP_EDITOR_UIXML]
+│   │   │   │   ├──>INTERFACESGRID.[REMOTE_IP_EDITOR_UIXML]
+│   │   │   │   ├──>ASSIGNEDTAGSGRID.[TAGS_EDIT_CONTENT_UIXML]
+│   │   │   │   ├──>UNASSIGNEDTAGSGRID.[TAGS_EDIT_CONTENT_UIXML]
+│   │   │   │   ├──>COLCONFIGGRID.[CONTEXT_SEQUENCE_SHEET_UIXML]
+│   │   │   │   ├──>CURVEPOINTGRID.[DMX_CURVES_UIXML]
+│   │   │   │   └──>USERSGRID.[USER_CONFIGURATION_UIXML]
 │   │   │   └──>StatusCenter (20)
-│   │   ├──>UserProfile2 (21)
+│   │   │       ├──>Highlight
+│   │   │       ├──>Solo
+│   │   │       ├──>Blind
+│   │   │       ├──>Parked
+│   │   │       ├──>Tester
+│   │   │       ├──>NotEnoughParameters
+│   │   │       ├──>ParameterOverload
+│   │   │       ├──>Filter
+│   │   │       ├──>World
+│   │   │       ├──>TimecodeRec
+│   │   │       ├──>Worldserver
+│   │   │       ├──>Battery
+│   │   │       ├──>RecipeEditing
+│   │   │       ├──>Lowlight
+│   │   │       ├──>Preview
+│   │   │       ├──>Memory
+│   │   │       ├──>Phasers
+│   │   │       ├──>Reserved
+│   │   │       ├──>FlowControl
+│   │   │       └──>KeyboardShortcuts
+│   │   ├──>UserProfile2 (21) // similar contents to the above profile.
+│   │   │   ├──>Environments
+│   │   │   ├──>EncoderBarPool
+│   │   │   ├──>Cameras
+│   │   │   ├──>WindowTypes
+│   │   │   ├──>Views
+│   │   │   ├──>StorePreferences
+│   │   │   ├──>ExecutorFixiation
+│   │   │   ├──>SequenceSelection
+│   │   │   ├──>SpecialExecutorPages
+│   │   │   ├──>TemporaryWindowSettings
+│   │   │   ├──>SmartViewPool
+│   │   │   ├──>Variables
+│   │   │   ├──>ScreenConfigurations
+│   │   │   ├──>LayoutElementDefaultsCollect
+│   │   │   ├──>KeyboardShortcuts
+│   │   │   ├──>UserAttributePreferences
+│   │   │   ├──>RenderQualities
+│   │   │   ├──>SequenceSelection
+│   │   │   ├──>Collection
+│   │   │   ├──>GridColumnRegistry
+│   │   │   └──>StatusCenter
 │   │   └──>new (21)
-│   ├──>Users
+│   │       ├──>Environments
+│   │       ├──>EncoderBarPool
+│   │       ├──>Cameras
+│   │       ├──>WindowTypes
+│   │       ├──>Views
+│   │       ├──>StorePreferences
+│   │       ├──>ExecutorFixiation
+│   │       ├──>SequenceSelection
+│   │       ├──>SpecialExecutorPages
+│   │       ├──>TemporaryWindowSettings
+│   │       ├──>SmartViewPool
+│   │       ├──>Variables
+│   │       ├──>ScreenConfigurations
+│   │       ├──>LayoutElementDefaultsCollect
+│   │       ├──>KeyboardShortcuts
+│   │       ├──>UserAttributePreferences
+│   │       ├──>RenderQualities
+│   │       ├──>SequenceSelection
+│   │       ├──>Collection
+│   │       ├──>GridColumnRegistry
+│   │       └──>StatusCenter
+│   ├──>Users (6)
+│   │   ├──>Guest
+│   │   ├──>Admin
+│   │   ├──>3D
+│   │   ├──>Remote
+│   │   ├──>User 5
+│   │   └──>Test
 │   ├──>PlaybackTable 
-│   ├──>PSNProtocol
+│   ├──>PSNProtocol // Name SenderIP Port MulticastIP MapX MapY MapZ MergeMode
+│   │   └──>System1
 │   ├──>Materials
+│   │   └──>MaterialContent1
 │   └──>MVRxchange
-├──>
-├──>
-├──>
-├──>
-├──>
-├──>
-├──>
-├──>
-├──>
-├──>
+│       └──>MVRLocalFile1
+├──>TimecodeSlots (8)
+│   ├──>TCSlot 1 
+│   ├──>TCSlot 2
+│   ├──>TCSlot 3
+│   ├──>TCSlot 4
+│   ├──>TCSlot 5
+│   ├──>TCSlot 6
+│   ├──>TCSlot 7
+│   └──>TCSlot 8
+├──>ColorTheme (2)
+│   ├──>ColorDefCollect (4)
+│   │   ├──>Global (95)
+│   │   │   ├──>Text
+│   │   │   ├──>TextDefault
+│   │   │   ├──>TextDark
+│   │   │   ├──>Background
+│   │   │   ├──>BackgroundDark
+│   │   │   ├──>Header
+│   │   │   ├──>AltHeader
+│   │   │   ├──>DefaultCellBackground
+│   │   │   ├──>DefaultCellAltBackground
+│   │   │   ├──>Selected
+│   │   │   ├──>SelectedInverted
+│   │   │   ├──>SelectedEdge
+│   │   │   ├──>InvalidGridPosition
+│   │   │   ├──>MainMultiPatchSelected
+│   │   │   ├──>PartlySelected
+│   │   │   ├──>BackgroundSelected
+│   │   │   ├──>BackgroundInvalidGridPosition
+│   │   │   ├──>BackgroundMainMultiPatchSelected
+│   │   │   ├──>BackgroundSelectedInverted
+│   │   │   ├──>Connected
+│   │   │   ├──>Lasso
+│   │   │   ├──>FocusFrame
+│   │   │   ├──>WindowFocus
+│   │   │   ├──>Hover
+│   │   │   ├──>SelectedFrameBackground
+│   │   │   ├──>SelectedRowBorder
+│   │   │   ├──>Pressed
+│   │   │   ├──>ButtonBackground
+│   │   │   ├──>ButtonBackgroundTransparent75
+│   │   │   ├──>ButtonBackgroundDarker
+│   │   │   ├──>ButtonIndicatorIcon
+│   │   │   ├──>ButtonAdditionalText
+│   │   │   ├──>ActiveIcon
+│   │   │   ├──>Inactive
+│   │   │   ├──>Bright
+│   │   │   ├──>TitleGray
+│   │   │   ├──>LabelText
+│   │   │   ├──>IndicatorBar
+│   │   │   ├──>PropertyBackground
+│   │   │   ├──>PropertyBackgroundActive
+│   │   │   ├──>Fixed
+│   │   │   ├──>Icon
+│   │   │   ├──>IconHover
+│   │   │   ├──>RedIndicator
+│   │   │   ├──>DarkRedIndicator
+│   │   │   ├──>GreenIndicator
+│   │   │   ├──>DarkGreenindicator
+│   │   │   ├──>YellowIndicator
+│   │   │   ├──>DarkOrangeIndicator
+│   │   │   ├──>OrangeIndicator
+│   │   │   ├──>CyanIndicator
+│   │   │   ├──>UpdateIndicator
+│   │   │   ├──>UpdateAddIndicator
+│   │   │   ├──>UpdateIntegrated
+│   │   │   ├──>UpdateAddIntegrated
+│   │   │   ├──>Warning
+│   │   │   ├──>Error
+│   │   │   ├──>Alert
+│   │   │   ├──>Success
+│   │   │   ├──>RedBackground
+│   │   │   ├──>OverlayBackground
+│   │   │   ├──>GreenBackground
+│   │   │   ├──>Shadow
+│   │   │   ├──>ShadowDark
+│   │   │   ├──>DeskLock
+│   │   │   ├──>Disabled
+│   │   │   ├──>Referenced
+│   │   │   ├──>AfterGlow
+│   │   │   ├──>GlobalPreset
+│   │   │   ├──>SelectivePreset
+│   │   │   ├──>UniversalPreset
+│   │   │   ├──>ForSome
+│   │   │   ├──>ForAll
+│   │   │   ├──>ForNone
+│   │   │   ├──>Lightend
+│   │   │   ├──>Darkend
+│   │   │   ├──>Transparent 
+│   │   │   ├──>Transparent25
+│   │   │   ├──>Transparent50
+│   │   │   ├──>Transparent75
+│   │   │   ├──>TransparentWhite
+│   │   │   ├──>TransparentWhite25
+│   │   │   ├──>Parked
+│   │   │   ├──>RemoteInputLock
+│   │   │   ├──>TextViewSelectedRow
+│   │   │   ├──>TextViewBackground
+│   │   │   ├──>TextViewFixedBackground
+│   │   │   ├──>Collected
+│   │   │   ├──>UserChanged
+│   │   │   ├──>ClonedHint
+│   │   │   ├──>WaveForm
+│   │   │   ├──>Cooked
+│   │   │   └──>DmxTest
+│   │   ├──>SheetColor (48)
+│   │   │   ├──>Text
+│   │   │   ├──>TextTracked
+│   │   │   ├──>TextBlocked
+│   │   │   ├──>TextArchive
+│   │   │   ├──>TextOtherUser
+│   │   │   ├──>TextPlayback
+│   │   │   ├──>TextPlaybackTracked
+│   │   │   ├──>TextOtherPlayback
+│   │   │   ├──>TextOtherPlaybackTracked
+│   │   │   ├──>TextOtherProgrammer
+│   │   │   ├──>BackgroundOtherProgrammer
+│   │   │   ├──>TextSelectedPlayback
+│   │   │   ├──>Background
+│   │   │   ├──>OtherUser
+│   │   │   ├──>Fade
+│   │   │   ├──>FadeText
+│   │   │   ├──>Delay
+│   │   │   ├──>DelayText
+│   │   │   ├──>DelayTextBlocked
+│   │   │   ├──>Absolute
+│   │   │   ├──>AbsoluteText
+│   │   │   ├──>AbsoluteTextBlocked
+│   │   │   ├──>Relative
+│   │   │   ├──>RelativeText
+│   │   │   ├──>RelativeTextBlocked
+│   │   │   ├──>Phaser
+│   │   │   ├──>PhaserText
+│   │   │   ├──>GridPos
+│   │   │   ├──>GridPosText
+│   │   │   ├──>ID
+│   │   │   ├──>IDText
+│   │   │   ├──>IDTextBlocked
+│   │   │   ├──>PresetAbs
+│   │   │   ├──>PresetRel
+│   │   │   ├──>Integrated
+│   │   │   ├──>Update
+│   │   │   ├──>NotAvailable
+│   │   │   ├──>DownGoingText
+│   │   │   ├──>Update
+│   │   │   ├──>NotAvailable
+│   │   │   ├──>DownGoingText
+│   │   │   ├──>UpGoingText
+│   │   │   ├──>TextMIB
+│   │   │   ├──>BackMIB
+│   │   │   ├──>TextMIBFade
+│   │   │   ├──>BackMIBFade
+│   │   │   ├──>GroupMasterActive
+│   │   │   └──>AdditiveMasterActive
+│   │   ├──>Playback (21)
+│   │   │   ├──>Off
+│   │   │   ├──>On
+│   │   │   ├──>Paused
+│   │   │   ├──>Forwards
+│   │   │   ├──>Backwards
+│   │   │   ├──>FastForwards
+│   │   │   ├──>FastBackwards
+│   │   │   ├──>Recording
+│   │   │   ├──>ActiveCue
+│   │   │   ├──>FaderBarBack
+│   │   │   ├──>FaderBar
+│   │   │   ├──>FaderBarText
+│   │   │   ├──>Blue50
+│   │   │   ├──>Blue75
+│   │   │   ├──>Yellow25
+│   │   │   ├──>Yellow50
+│   │   │   ├──>Yellow75
+│   │   │   ├──>White25
+│   │   │   ├──>White50
+│   │   │   ├──>White75
+│   │   │   └──>Cyan25
+│   │   └──>PoolDefault (50)
+│   │       ├──>View
+│   │       ├──>Macro
+│   │       ├──>Quickey
+│   │       ├──>Plugin
+│   │       ├──>Menu
+│   │       ├──>Group
+│   │       ├──>World
+│   │       ├──>Filter
+│   │       ├──>Sequence
+│   │       ├──>Preset
+│   │       ├──>PresetDimmer
+│   │       ├──>PresetPosition
+│   │       ├──>PresetGobo 
+│   │       ├──>PresetColor
+│   │       ├──>PresetBeam
+│   │       ├──>PresetFocus
+│   │       ├──>PresetControl
+│   │       ├──>PresetShapers
+│   │       ├──>PresetVideo
+│   │       ├──>PresetDynamic
+│   │       ├──>PresetAll
+│   │       ├──>Master
+│   │       ├──>Configuration
+│   │       ├──>Handle
+│   │       ├──>Page
+│   │       ├──>Image
+│   │       ├──>Video
+│   │       ├──>Appearance
+│   │       ├──>Scribble
+│   │       ├──>Gobo
+│   │       ├──>Gels
+│   │       ├──>Matricks
+│   │       ├──>SmartView
+│   │       ├──>Timecodes
+│   │       ├──>Layouts
+│   │       ├──>Universes
+│   │       ├──>Users
+│   │       ├──>Sounds
+│   │       ├──>Camera
+│   │       ├──>Datapool
+│   │       ├──>Mesh
+│   │       ├──>RenderQuality
+│   │       ├──>Materials
+│   │       ├──>Generators
+│   │       ├──>Bitmaps
+│   │       ├──>Timers
+│   │       ├──>EncoderBar
+│   │       ├──>Tagas
+│   │       ├──>Executor
+│   │       └──>Station
+│   └──>ColorGroups (111) // this is pretty much the *whole* color theme display in the filesystem...
+│       ├──>Global (38)
+│       ├──>ExecConfigEdit (1)
+│       ├──>RadioItemButton (2)
+│       ├──>Assignment (29)
+│       ├──>Clock (2)
+│       ├──>Piano (2)
+│       ├──>Beat (4)
+│       ├──>Network (18)
+│       ├──>MAtricks (7)
+│       ├──>MessageCenter (11)
+│       ├──>StatusCenter (9)
+│       ├──>NumericInput (5)
+│       ├──>SysInfoButton (1)
+│       ├──>Screen (4)
+│       ├──>Display (3)
+│       ├──>Overlay (6)
+│       ├──>UIObject (3)
+│       ├──>Button (10)
+│       ├──>Filter (4)
+│       ├──>ContextButton (3)
+│       ├──>TitleButton (21)
+│       ├──>PoolTitleButton (3)
+│       ├──>CloseButton (3)
+│       ├──>PropertyControl (6)
+│       ├──>ValueFadeControl (4)
+│       ├──>IndicatorControl (5)
+│       ├──>BaseStateButton (3)
+│       ├──>Window (20)
+│       ├──>PoolWindow (52)
+│       ├──>Exec (39)
+│       ├──>PlaybackState (8)
+│       ├──>CrossFade (8)
+│       ├──>PoolButton (43)
+│       ├──>GroupMaster (8)
+│       ├──>PresetButton (9)
+│       ├──>CheckBox (22)
+│       ├──>ScrollBar (2)
+│       ├──>Fader (13)
+│       ├──>BandFader (7)
+│       ├──>LineEdit (10)
+│       ├──>CmdlineEdit (1)
+│       ├──>UIGrid (28)
+│       ├──>DBObjectGrid (10)
+│       ├──>UITab (8)
+│       ├──>Popup (7)
+│       ├──>Progress (11)
+│       ├──>2DView (10)
+│       ├──>3DView (13)
+│       ├──>DeskLock (6)
+│       ├──>DmxSheetHeader (2)
+│       ├──>DmxSheetFixed (4)
+│       ├──>DmxSheetCell (20)
+│       ├──>ProgLayer (41)
+│       ├──>GroupedProgLayerActive (9)
+│       ├──>GroupedProgLayerHas (9)
+│       ├──>TrackProgLayerActive (9)
+│       ├──>TrackProgLayerHas (9)
+│       ├──>TrackSheet (6)
+│       ├──>ColumnSetGrid (1)
+│       ├──>FixtureSheetHeader (8)
+│       ├──>FixtureSheetFixed (14)
+│       ├──>FixtureSheetCell (162)
+│       ├──>MainDialog (4)
+│       ├──>TextView (3)
+│       ├──>Oscilloscope (26)
+│       ├──>SystemInfo (10)
+│       ├──>EncoderControl (4)
+│       ├──>SwipeOverlay (2)
+│       ├──>MiniEncoder (3)
+│       ├──>ColorPicker (4)
+│       ├──>CustomMasters (1)
+│       ├──>DMXState (6)
+│       ├──>StoreOverlay (6)
+│       ├──>Help (11)
+│       ├──>SelectionGrid (15)
+│       ├──>Universe (2)
+│       ├──>PhaserUI (11)
+│       ├──>StationGrid (4)
+│       ├──>FixtureCalibPoints (4)
+│       ├──>FixtureSpecials (1)
+│       ├──>Timecode (22)
+│       ├──>SystemMonitor (11)
+│       ├──>LayoutView (11)
+│       ├──>TimecodeSlot (2)
+│       ├──>FixtureTypeImport (2)
+│       ├──>InsertFixturesWizard (2)
+│       ├──>MessageBox (1)
+│       ├──>FIDGridCell (4)
+│       ├──>SequenceGrid (16)
+│       ├──>KeyboardShortcuts (2)
+│       ├──>Trackpad (1)
+│       ├──>RemoteInfo (2)
+│       ├──>RemoteInputLock (6)
+│       ├──>Agenda (6)
+│       ├──>CommandLineHistory (3)
+│       ├──>DMXCurveEditor (3)
+│       ├──>Timer (5)
+│       ├──>TimerButton (2)
+│       ├──>ColorThemeCompare (2)
+│       ├──>EncoderBar (1)
+│       ├──>ShowCreator (2)
+│       ├──>RotationButton (3)
+│       ├──>CloneUI (3)
+│       ├──>UpdateMenu (6)
+│       ├──>PSR (11)
+│       ├──>RenderData (7)
+│       ├──>Subfixture (5)
+│       ├──>RecipeEditing (2)
+│       ├──>Action (6)
+│       ├──>OutputStation (5)
+│       └──>FilterGrid (2)
+├──>Menus (547)
+│   ├──>ColorPickerBar
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   ├──>
+│   └──>
+├──>Addons (1)
+│   └──>MVR DeerSoft (3)
+│       ├──>ApiGeneral
+│       ├──>ApiProject
+│       └──>ApiObject
+├──>GraphicsRoot (4)
+│   ├──>ShaderProgramCollect
+│   │   ├──>WindowProgram (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>DisplayProgram (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>DisplayMSProgram (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>DisplayFXAAProgram (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>Textured2D (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>Textured2DArray (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>ColoredLines3D (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageShadowMap (1)
+│   │   │   └──>VertexShader
+│   │   ├──>StageShadowMapTransparent (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageGbuffer (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageDeferred (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_SM (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GB_SM (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RT_GB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RT_GB_SM (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GT (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GT_SM (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_SM_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GB_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GB_SM_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RT_GB_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RT_GB_SM_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GT_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_AM_GT_SM_RB (2)
+│   │   ├──>StageLightBeams_RT_GT_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>StageLightBeams_RT_GT_SM_RB (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>HazeDepthMap (3)
+│   │   │   ├──>VertexShader
+│   │   │   ├──>GeometryShader
+│   │   │   └──>FragmentShader
+│   │   ├──>AdaptHDRExposure (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>PostProcessorHDR0 (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>PostProcessorHDR1 (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>PostProcessorBloom0 (2)	
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>PostProcessorBloom1 (2) 
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>PostProcessorSolid (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>SolidTransform (1)
+│   │   │   └──>VertexShader
+│   │   ├──>WorldOrigin (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>SelectionView (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>CompAngMap (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>ColoredPoints3D (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>ColoredCubeFromPoint (3)
+│   │   │   ├──>VertexShader
+│   │   │   ├──>GeometryShader
+│   │   │   └──>FragmentShader
+│   │   ├──>ColoredOctaederFromPoint (3)
+│   │   │   ├──>VertexShader
+│   │   │   ├──>GeometryShader
+│   │   │   └──>FragmentShader
+│   │   ├──>ColEngineDebugView (3)
+│   │   │   ├──>VertexShader
+│   │   │   ├──>GeometryShader
+│   │   │   └──>FragmentShader
+│   │   ├──>MeshPreview3D (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>Leds (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   ├──>Textured2DArraySimple (2)
+│   │   │   ├──>VertexShader
+│   │   │   └──>FragmentShader
+│   │   └──>Triangles (2)
+│   │       ├──>VertexShader
+│   │       └──>FragmentShader
+│   ├──>TextureCollect
+│   ├──>MonitorCollect
+│   └──>PultCollect
+├──>Temp (32)
+├──>Certificates (2)
+├──>DeviceConfigurations (2)
+├──>HardwareStatus (2)
 ```
