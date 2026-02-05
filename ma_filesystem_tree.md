@@ -2253,79 +2253,81 @@ Root
 │       ├──>OutputStation (5)
 │       └──>FilterGrid (2)
 ├──>Menus (547)
-│   ├──>ColorPickerBar
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
-│   ├──>
+│   ├──>ColorPickerBar (2)
+│   │   ├──>color_picker_bar_uixml // these two files exist for almost every menu. I'm not including them.
+│   │   └──>color_picker_bar_lua
+│   ├──>DBObjectBar (2)
+│   ├──>DmxTesterBar (2)
+│   ├──>ExecutorBar (2)
+│   ├──>ExecutorBarXkeys (2)
+│   ├──>GeneratorBitmapEditor (2)
+│   ├──>GeneratorRandomEditBar (2)
+│   ├──>LayoutBar (2)
+│   ├──>PatchBar (2)
+│   ├──>PhaserBar (2)
+│   ├──>PhaserEditorBar (2)
+│   ├──>PresetBar (2)
+│   ├──>SequenceControlBar (2)
+│   ├──>SequenceEditorBar (2)
+│   ├──>ShaperBar (2)
+│   ├──>StageViewBar (2)
+│   ├──>StoreBar (2)
+│   ├──>TimecodeBar (2)
+│   ├──>AppearanceEditContent (2)
+│   ├──>MessageCenterContent (2)
+│   ├──>OopsContent (2)
+│   ├──>ScribbleEditContent (2)
+│   ├──>TagsEditContent (2)
+│   ├──>VirtualKeyboardContent (2)
+│   ├──>AgendaEditor (2)
+│   ├──>AppearanceEditor (2)
+│   ├──>AssignmentEditor (2)
+│   ├──>CameraEditor (2)
+│   ├──>ColumnSetEditor (2)
+│   ├──>CuePartEditor (2)
+│   ├──>EncoderBarEdit (3)
+│   ├──>FilterAssignmentEncoder (2)
+│   ├──>FilterEditor (4)
+│   ├──>FixtureEdit (2)
+│   ├──>GelEditor (3)
+│   ├──>GeneratorBitmapEdit (4)
+│   ├──>GeneratorRandomEdit (4)
+│   ├──>GenericEdit (3)
+│   ├──>GridContentFilterEditor (2)
+│   ├──>GroupEditor (3)
+│   ├──>ImageEditor (2)
+│   ├──>ImageImport (2)
+│   ├──>KeyboardShortcutEditor (2)
+│   ├──>LabelEditor (4)
+│   ├──>LayoutDefaultsEditor (2)
+│   ├──>LayoutEditor (5)
+│   ├──>LayoutElementEditor (3)
+│   ├──>MacroEdit (4)
+│   ├──>MaterialEditor (2)
+│   ├──>MatrickEditor (5)
+│   ├──>MeshEditor (2)
+│   ├──>MvrEditor (2)
+│   ├──>ObjectTagEdit (4)
+│   ├──>OutputFilterAssignmentEditor (2)
+│   ├──>PresetEditor (5)
+│   ├──>QuickeyEditor (3)
+│   ├──>RemoteIpEditor (2)
+│   ├──>RenderQualityEditor (2)
+│   ├──>ScribbleEditor (3)
+│   ├──>SequenceEdit (3)
+│   ├──>SoundEditor (3)
+│   ├──>SoundImport (3)
+│   ├──>SpaceEdit (2)
+│   ├──>StageEdit (2)
+│   ├──>ThemeEditor (3)
+│   ├──>TimecodeEditor (3)
+│   ├──>TimecodeSlotEditor (2)
+│   ├──>TimerEditor (2)
+│   ├──>UniverseEditor (2)
+│   ├──>VideoEditor (2)
+│   ├──>WorldEditor (3)
+│   ├──>EditExecEncoderClick (2)
+│   ├──>#74 in output
 │   ├──>
 │   ├──>
 │   ├──>
@@ -2951,11 +2953,265 @@ Root
 │   │   └──>Triangles (2)
 │   │       ├──>VertexShader
 │   │       └──>FragmentShader
-│   ├──>TextureCollect
-│   ├──>MonitorCollect
-│   └──>PultCollect
+│   ├──>TextureCollect (3)
+│   │   ├──>Textures (896) // not going to list out all. they're textures.
+│   │   │   ├──>white
+│   │   │   ├──>cursor
+│   │   │   ├──>icon_timer
+│   │   │   ├──>undo
+│   │   │   └──>treeview_vertical
+│   │   ├──>Fonts (20)
+│   │   │   ├──>console32 
+│   │   │   ├──>console28
+│   │   │   ├──>console24
+│   │   │   ├──>console20
+│   │   │   ├──>console18
+│   │   │   ├──>console16
+│   │   │   ├──>console14
+│   │   │   ├──>console12
+│   │   │   ├──>console10
+│   │   │   ├──>console8
+│   │   │   ├──>Medium20
+│   │   │   ├──>Regular32
+│   │   │   ├──>Regular28
+│   │   │   ├──>Regular24
+│   │   │   ├──>Regular20
+│   │   │   ├──>Regular18
+│   │   │   ├──>Regular16
+│   │   │   ├──>Regular14
+│   │   │   ├──>Regular11
+│   │   │   └──>Regular9
+│   │   └──>ContentManager
+│   ├──>MonitorCollect (1)
+│   │   └──>Built-In Retina Display
+│   └──>PultCollect (1)
+│       └──>Pult 1 (2)
+│           ├──>Devices (4)
+│           │   ├──>MouseCollect1 (2)
+│           │   │   ├──>Mouse1
+│           │   │   └──>Mouse2
+│           │   ├──>Keyboard2
+│           │   ├──>Touch3
+│           │   └──>GestureManager4
+│           └──>DisplayCollect (15)
+│               └──>Display (13)
+│                   ├──>Rows (4)
+│                   │   ├──>Item1
+│                   │   ├──>Item2
+│                   │   ├──>Item3
+│                   │   └──>Item4
+│                   ├──>Columns (3)
+│                   │   ├──>Item1
+│                   │   ├──>Item2
+│                   │   └──>Item3
+│                   ├──>CmdLineSection (8)
+│                   │   ├──>Rows
+│                   │   ├──>Columns
+│                   │   ├──>Button 3
+│                   │   ├──>UIGridLayout 4
+│                   │   ├──>DisplayCommandLine
+│                   │   ├──>LinkCmd
+│                   │   ├──>StatusScrollCenter
+│                   │   └──>RightTriangle
+│                   ├──>MainMenuCnt (7)
+│                   │   ├──>Rows
+│                   │   ├──>Columns
+│                   │   ├──>SB
+│                   │   ├──>Button 4
+│                   │   ├──>Button 5
+│                   │   ├──>Button 6
+│                   │   └──>Button 7
+│                   ├──>ScreenContainer (6)
+│                   │   ├──>Rows
+│                   │   ├──>Columns
+│                   │   ├──>ScrollIndicatorBox
+│                   │   ├──>ViewBar
+│                   │   ├──>GoToFirst
+│                   │   └──>ViewBarNextPage
+│                   ├──>EncoderBarContainer (6)
+│                   │   ├──>Rows
+│                   │   ├──>Columns
+│                   │   ├──>ExecutorSection
+│                   │   ├──>MasterSection
+│                   │   ├──>EncoderBarGrid
+│                   │   └──>EncoderBarOverlay
+│                   ├──>MainDialog (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   ├──>MainOverlay (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   ├──>HelpOverlay (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   ├──>FullScreen (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   ├──>ScreenOverlay (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   ├──>NotificationOverlay (2)
+│                   │   ├──>ScrollBarH
+│                   │   └──>ScrollBarV
+│                   └──>ModalOverlay (2)
+│                       ├──>ScrollBarH
+│                       └──>ScrollBarV
 ├──>Temp (32)
+│   ├──>CmdLines (2)
+│   │   ├──>CmdLine1 (9)
+│   │   │   ├──>Undos (256) // this is where your last 'oops'/faulty syntax is stored!
+│   │   │   │   ├──>Fixture "ls" // typing 'ls' instead of 'list' to get current directory contents
+│   │   │   │   └──>Fixture "ls"
+│   │   │   ├──>Library
+│   │   │   ├──>TabRegistry
+│   │   │   ├──>TempStoreSettings
+│   │   │   ├──>Image
+│   │   │   ├──>PresetUpdates
+│   │   │   ├──>CueUpdates
+│   │   │   ├──>ShowMetaDataCollect
+│   │   │   └──>TagFakeCollect
+│   │   └──>CmdLine2 (9)
+│   │       ├──>Undos (256) // this is where your last 'oops'/faulty syntax is stored!
+│   │       │   ├──>Fixture "ls" // typing 'ls' instead of 'list' to get current directory contents
+│   │       │   └──>Fixture "ls"
+│   │       ├──>Library
+│   │       ├──>TabRegistry
+│   │       ├──>TempStoreSettings
+│   │       ├──>Image
+│   │       ├──>PresetUpdates
+│   │       ├──>CueUpdates
+│   │       ├──>ShowMetaDataCollect
+│   │       └──>TagFakeCollect
+│   ├──>LogInterface (8)
+│   │   ├──>TimeLogBuffer1 
+│   │   ├──>TimeLogBuffer2
+│   │   ├──>TimeLogBuffer3
+│   │   ├──>TimeLogBuffer4
+│   │   ├──>TimeLogBuffer5
+│   │   ├──>TimeLogBuffer6
+│   │   ├──>TimeLogBuffer7
+│   │   └──>TimeLogBuffer8
+│   ├──>TestRGBInterface
+│   ├──>ScribbleEdit
+│   ├──>LoadedPlaybacks
+│   ├──>RunningPlaybacksCollect (12)
+│   │   ├──>RunningSequences 
+│   │   ├──>RunningMacros
+│   │   ├──>RunningTimecodes
+│   │   ├──>RunningPresets
+│   │   ├──>RunningTimers
+│   │   ├──>RunningSoundFiles
+│   │   ├──>MyRunningSequences 
+│   │   ├──>MyRunningMacros
+│   │   ├──>MyRunningTimecodes
+│   │   ├──>MyRunningPresets
+│   │   ├──>MyRunningTimers
+│   │   └──>MyRunningSoundFiles
+│   ├──>DriveCollect (1) // info on current connected drives! really cool actually
+│   │   └──>Internal /Path/To/Downloaded/Showfile/On/PC
+│   ├──>PultCollect (1)
+│   │   └──>Pult1 
+│   ├──>Camera
+│   ├──>ReleaseFile
+│   ├──>SoundChannels (22)
+│   │   ├──>All
+│   │   ├──>Bass
+│   │   ├──>Mid
+│   │   ├──>High
+│   │   ├──>Band1
+│   │   ├──>Band2
+│   │   ├──>Band3
+│   │   ├──>Band4
+│   │   ├──>Band5
+│   │   ├──>Band6
+│   │   ├──>Band7
+│   │   ├──>InvAll
+│   │   ├──>InvBass
+│   │   ├──>InvMid
+│   │   ├──>InvHigh
+│   │   ├──>InvBand1
+│   │   ├──>InvBand2
+│   │   ├──>InvBand3
+│   │   ├──>InvBand4
+│   │   ├──>InvBand5
+│   │   ├──>InvBand6
+│   │   └──>InvBand7
+│   ├──>ProgLayers (21)
+│   │   ├──>PresetAbs
+│   │   ├──>PresetRel
+│   │   ├──>Fade
+│   │   ├──>Delay
+│   │   ├──>Speed
+│   │   ├──>SpeedMaster
+│   │   ├──>Phase
+│   │   ├──>GridPos
+│   │   ├──>Measure
+│   │   ├──>Integrated
+│   │   ├──>Absolute
+│   │   ├──>Relative
+│   │   ├──>Accel
+│   │   ├──>Decel
+│   │   ├──>Transition
+│   │   ├──>Width
+│   │   ├──>(Empty)
+│   │   ├──>CueAbs
+│   │   ├──>CueRel
+│   │   ├──>DMX
+│   │   └──>Output
+│   ├──>TempNetworkInterfaces (1)
+│   │   └──>TempNetworkRemoteInterfaceCollect1
+│   ├──>LayoutCameraObject
+│   ├──>PsrFixtures
+│   ├──>Timezones (289) // I can't justify writing these out...they're just the timezones around the world.
+│   ├──>MiniInDescriptions (1)
+│   │   └──>None
+│   ├──>MidiOutDescriptions (1)
+│   │   └──>None
+│   ├──>AudioInDescriptions (3) // info related to your device
+│   │   ├──>Default (Computer)
+│   │   ├──>ComputerMakeModel
+│   │   └──>OtherExternalAudioInputs
+│   ├──>RenderQuality
+│   ├──>MultiPatchBase
+│   ├──>ThemeBase (2)
+│   │   ├──>ColorDefCollect
+│   │   └──>ColorGroups
+│   ├──>ThemeCompare (2)
+│   │   ├──>ColorDefCollect
+│   │   └──>ColorGroups
+│   ├──>TempMVRExchange (2)
+│   │   ├──>MVRServiceCollect1
+│   │   └──>MVRFileCollect2
+│   ├──>ConvertTask (4)
+│   ├──>NtpMonitor
+│   ├──>MidiMonitor
+│   └──>Prog Only (1)
+│       └──>FilterRuleCollect (2)
+│           ├──>Ruleset1 (1)
+│           │   └──>IfProgrammer
+│           └──>Ruleset2 (1)
+│               └──>Selected
 ├──>Certificates (2)
+│   ├──>OverallDeviceCertificate
+│   └──>MainModuleCertificate
 ├──>DeviceConfigurations (2)
+│   ├──>OutputStations (4)
+│   │   ├──>Console
+│   │   ├──>onPC (9) // number of devices in session, varies by setup. i'll only list 1.
+│   │   │   └──>MYNAME_SESSION  127.0.0.1  ff:ff:ff:ff:ff:ff - onPC:0 (1)
+│   │   │       └──>OutputConfiguration1  grandMA3 CommandWing
+│   │   ├──>PU
+│   │   └──>NetworkNodes
+│   └──>DMXProtocols (2)
+│       ├──>Art-Net (2)
+│       │   ├──>ArtNetDataCollect (1)
+│       │   │   └──>Art-Net-Data1
+│       │   └──>ArtNetNodeCollect
+│       └──>sACN (2)
+│           ├──>sACNDataCollect (1)
+│           │   └──>sACNData1
+│           └──>sACNDiscoveryCollect
 ├──>HardwareStatus (2)
+    ├──>ExecutorKeyStatus
+    └──>BatteryStatus
 ```
