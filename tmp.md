@@ -1,4 +1,4 @@
-# asked chatgpt to write 145 lines and it wrote 3,366 before crashing
+# asked chatgpt to write 145 lines and it wrote 3,366 before crashing. weird lol
 │   ├──>
 │   ├──>
 │   ├──>
