@@ -5,14 +5,18 @@ I'll have a terminal-style tree output window and a visual created on drawio or 
 
 ## Instructions
 To move into directories (any one of the below four works):
-<br> `cd [DirectoryName]` <br>
-`cd [DirectoryNumber]` <br>
-`ChangeDestination [DirectoryName]` <br>
+<br> `cd [DirectoryName]`
+<br> `cd [DirectoryNumber]` 
+<br> `ChangeDestination [DirectoryName]`
 `ChangeDestination [DirectoryNumber]`
 
 To move out of directories (either command will do the same action):
-<br > `cd ..` <br>
-`ChangeDestination ..`
+<br > `cd ..`
+<br> `ChangeDestination ..`
+
+To return to User[Fixture]: 
+<br> `cd root` 
+<br> `ChangeDestination root`
 
 To list contents of the current directory:
 <br> `list`
