@@ -1,5 +1,6 @@
 # MA3 File System
 
+Below is a tree view of the grandMA3 filesystem! Some of the directories and thier contents will vary by configuration. The below tree is pulled from a grandMA3 onPC session running standalone. 
 ```
 Root
 │
