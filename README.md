@@ -8,7 +8,7 @@ To move into directories (any one of the below four works):
 <br> `cd [DirectoryName]`
 <br> `cd [DirectoryNumber]` 
 <br> `ChangeDestination [DirectoryName]`
-`ChangeDestination [DirectoryNumber]`
+<br> `ChangeDestination [DirectoryNumber]`
 
 To move out of directories (either command will do the same action):
 <br > `cd ..`
