@@ -1,7 +1,7 @@
 # grandMA3 File System Overveiw
 The grandMA3 file system is complex and intricate, and I have yet to find decent documentation that outlines the file system. This aims to do that. 
 
-I'll have a terminal-style tree output window and a visual created on drawio or something. 
+The file is `ma_filesystem_tree.md`, and it's just a breakdown of the entire filesystem. I'll hopefully go through and emphasize more relevant repositories in the future, but for now, I'd just stick with `Ctrl+F` for anything you think you may need. 
 
 ## Instructions
 To move into directories (any one of the below four works):
