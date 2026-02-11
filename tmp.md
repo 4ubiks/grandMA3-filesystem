@@ -1,4 +1,6 @@
 # asked chatgpt to write 145 lines and it wrote 3,366 before crashing. weird lol
+
+this file isn't relevant. it's just funny.
 │   ├──>
 │   ├──>
 │   ├──>
